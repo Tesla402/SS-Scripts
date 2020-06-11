@@ -1,0 +1,9 @@
+game.Players.NAMEHERE.Chatted:connect(print)
+
+--PUT NAME OF PLAYER YOU WANT TO LOG! Where it says NAMEHERE!
+
+--Prints all chatted stuff, even if they say /e hl/Link
+--I'm not responsible for the stuff you do with this script.
+
+
+--Made By: CLarramore& xel8o9

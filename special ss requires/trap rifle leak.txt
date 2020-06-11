@@ -1,0 +1,1 @@
+require(4696723878).TrapRifle("Imbad_12")

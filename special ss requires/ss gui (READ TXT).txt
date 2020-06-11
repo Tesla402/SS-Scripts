@@ -1,0 +1,1 @@
+require(2670071430).load("Imbad_12") wait 3s then say boi/ in chat

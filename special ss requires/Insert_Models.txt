@@ -1,0 +1,12 @@
+asset = 00000000 --Insert The AssetId Of The Model Here
+aaaa = Instance.new("Part")
+aaaa.Position = game.Players.LocalPlayer.Character.Torso.Position + Vector3.new(10,0,10)
+aaaa.Anchored = true
+aaaa.Transparency = 1
+aaaa.CanCollide = false
+model = game:GetService("InsertService"):LoadAsset(asset)
+model.Parent = game.DirectoryYouWantItToBeIn
+model:MakeJoints()
+model.Name = "InsertedModel"..asset
+model.CFrame = aaaa.CFrame
+aaaa:Destroy()

@@ -1,0 +1,1 @@
+_G.setPower:Fire(512348092, 7)

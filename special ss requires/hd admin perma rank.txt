@@ -1,0 +1,1 @@
+_G.HDAdminMain:GetModule("PlayerData"):ChangeStat(player, "SaveRank", true)

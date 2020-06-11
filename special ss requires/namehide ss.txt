@@ -1,0 +1,14 @@
+while true do
+    local FakeHumanoid = game.Players.LocalPlayer.Character.Humanoid:Clone()
+    game.Players.LocalPlayer.Character.Humanoid:Destroy()
+    FakeHumanoid.Parent = game.Players.LocalPlayer.Character
+    wait(5)
+    local part = Instance.new("Part", game.Workspace)
+    part.Anchored = true
+    part.CanCollide = false
+    part.Transparency = 1
+    part.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+    wait(0.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = part.CFrame
+    part:Destroy()
+end
